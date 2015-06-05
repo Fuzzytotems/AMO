@@ -2562,4 +2562,204 @@ Make sure 'ArenaCharacter_C' has been compiled for  Set spellbook
 [2015.06.05-09.44.08:489][138]LogBlueprint:Warning: [compiler ArenaCharacter] Warning [0815.91] Compile of ArenaCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
 [2015.06.05-09.44.08:489][138]LogBlueprint:Warning: [compiler ArenaCharacter] Warning [0815.91] Compile of ArenaCharacter failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
 [2015.06.05-09.44.08:529][138]LogBlueprint:Warning: [compiler ArenaCharacter] Warning [0815.95] Compile of ArenaCharacter failed. 1 Fatal Issue(s) 5 Warning(s) [in 39 ms]
-[2015.06.05-09.44.08:540][138]LogBlueprint:Warning: [compiler ArenaCharacter] Warning [0815
+[2015.06.05-09.44.08:540][138]LogBlueprint:Warning: [compiler ArenaCharacter] Warning [0815.96] Compile of ArenaCharacter failed. 1 Fatal Issue(s) 6 Warning(s) [in 10 ms]
+[2015.06.05-09.44.08:540][138]LogBlueprint:Warning: [compiler ArenaCharacter] Warning [0815.96] Compile of ArenaCharacter failed. 1 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.06.05-09.44.08:733][138]LogContentBrowser: Native class hierarchy updated for 'ArenaMastersOnline' in 0.0016 seconds. Added 4 classes and 2 folders.
+[2015.06.05-09.44.08:736][138]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.06.05-09.44.09:231][138]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1797 classes and 305 folders.
+[2015.06.05-20.54.37:490][178]LogEditorViewport: Clicking Background
+[2015.06.05-20.56.10:186][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_001.jpg)
+[2015.06.05-20.56.10:284][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_001 (AutoDXT)
+[2015.06.05-20.56.10:575][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_002.jpg)
+[2015.06.05-20.56.10:633][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_002 (AutoDXT)
+[2015.06.05-20.56.10:697][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_003.jpg)
+[2015.06.05-20.56.10:762][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_003 (AutoDXT)
+[2015.06.05-20.56.10:876][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_004.jpg)
+[2015.06.05-20.56.10:950][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_004 (AutoDXT)
+[2015.06.05-20.56.11:030][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_005.jpg)
+[2015.06.05-20.56.11:190][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_005 (AutoDXT)
+[2015.06.05-20.56.11:268][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_006.jpg)
+[2015.06.05-20.56.11:388][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_006 (AutoDXT)
+[2015.06.05-20.56.11:460][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_007.jpg)
+[2015.06.05-20.56.11:726][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_007 (AutoDXT)
+[2015.06.05-20.56.11:801][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_008.jpg)
+[2015.06.05-20.56.11:862][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_008 (AutoDXT)
+[2015.06.05-20.56.11:955][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_009.jpg)
+[2015.06.05-20.56.12:066][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_009 (AutoDXT)
+[2015.06.05-20.56.12:160][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_010.jpg)
+[2015.06.05-20.56.12:295][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_010 (AutoDXT)
+[2015.06.05-20.56.12:344][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_011.jpg)
+[2015.06.05-20.56.12:451][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_011 (AutoDXT)
+[2015.06.05-20.56.12:542][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_012.jpg)
+[2015.06.05-20.56.12:607][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_012 (AutoDXT)
+[2015.06.05-20.56.12:694][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_013.jpg)
+[2015.06.05-20.56.12:806][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_013 (AutoDXT)
+[2015.06.05-20.56.12:879][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_014.jpg)
+[2015.06.05-20.56.12:885][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_014 (AutoDXT)
+[2015.06.05-20.56.12:982][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_015.jpg)
+[2015.06.05-20.56.13:045][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_015 (AutoDXT)
+[2015.06.05-20.56.13:165][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_016.jpg)
+[2015.06.05-20.56.13:260][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_016 (AutoDXT)
+[2015.06.05-20.56.13:336][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_017.jpg)
+[2015.06.05-20.56.13:428][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_017 (AutoDXT)
+[2015.06.05-20.56.13:539][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_018.jpg)
+[2015.06.05-20.56.13:595][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_018 (AutoDXT)
+[2015.06.05-20.56.13:680][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_019.jpg)
+[2015.06.05-20.56.13:762][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_019 (AutoDXT)
+[2015.06.05-20.56.13:868][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_020.jpg)
+[2015.06.05-20.56.13:983][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_020 (AutoDXT)
+[2015.06.05-20.56.14:112][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_021.jpg)
+[2015.06.05-20.56.14:202][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_021 (AutoDXT)
+[2015.06.05-20.56.14:248][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_022.jpg)
+[2015.06.05-20.56.14:307][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_022 (AutoDXT)
+[2015.06.05-20.56.14:379][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_023.jpg)
+[2015.06.05-20.56.14:475][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_023 (AutoDXT)
+[2015.06.05-20.56.14:585][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_024.jpg)
+[2015.06.05-20.56.14:688][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_024 (AutoDXT)
+[2015.06.05-20.56.14:724][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_025.jpg)
+[2015.06.05-20.56.14:809][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_025 (AutoDXT)
+[2015.06.05-20.56.14:910][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_026.jpg)
+[2015.06.05-20.56.14:914][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_026 (AutoDXT)
+[2015.06.05-20.56.15:009][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_027.jpg)
+[2015.06.05-20.56.15:091][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_027 (AutoDXT)
+[2015.06.05-20.56.15:187][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_028.jpg)
+[2015.06.05-20.56.15:265][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_028 (AutoDXT)
+[2015.06.05-20.56.15:364][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_029.jpg)
+[2015.06.05-20.56.15:456][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_029 (AutoDXT)
+[2015.06.05-20.56.15:519][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_030.jpg)
+[2015.06.05-20.56.15:601][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_030 (AutoDXT)
+[2015.06.05-20.56.15:757][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_031.jpg)
+[2015.06.05-20.56.15:811][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_031 (AutoDXT)
+[2015.06.05-20.56.15:866][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_032.jpg)
+[2015.06.05-20.56.15:906][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_032 (AutoDXT)
+[2015.06.05-20.56.15:978][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_033.jpg)
+[2015.06.05-20.56.16:066][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_033 (AutoDXT)
+[2015.06.05-20.56.16:160][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_034.jpg)
+[2015.06.05-20.56.16:241][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_034 (AutoDXT)
+[2015.06.05-20.56.16:338][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_035.jpg)
+[2015.06.05-20.56.16:414][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_035 (AutoDXT)
+[2015.06.05-20.56.16:511][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_036.jpg)
+[2015.06.05-20.56.16:647][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_036 (AutoDXT)
+[2015.06.05-20.56.16:724][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_037.jpg)
+[2015.06.05-20.56.16:948][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_037 (AutoDXT)
+[2015.06.05-20.56.17:082][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_038.jpg)
+[2015.06.05-20.56.17:135][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_038 (AutoDXT)
+[2015.06.05-20.56.17:255][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_039.jpg)
+[2015.06.05-20.56.17:260][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_039 (AutoDXT)
+[2015.06.05-20.56.17:361][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_040.jpg)
+[2015.06.05-20.56.17:450][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_040 (AutoDXT)
+[2015.06.05-20.56.17:536][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_041.jpg)
+[2015.06.05-20.56.17:588][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_041 (AutoDXT)
+[2015.06.05-20.56.17:658][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_042.jpg)
+[2015.06.05-20.56.17:734][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_042 (AutoDXT)
+[2015.06.05-20.56.17:825][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_043.jpg)
+[2015.06.05-20.56.17:880][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_043 (AutoDXT)
+[2015.06.05-20.56.17:995][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_044.jpg)
+[2015.06.05-20.56.18:059][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_044 (AutoDXT)
+[2015.06.05-20.56.18:124][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_045.jpg)
+[2015.06.05-20.56.18:184][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_045 (AutoDXT)
+[2015.06.05-20.56.18:223][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_046.jpg)
+[2015.06.05-20.56.18:228][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_046 (AutoDXT)
+[2015.06.05-20.56.18:305][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_047.jpg)
+[2015.06.05-20.56.18:395][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_047 (AutoDXT)
+[2015.06.05-20.56.18:471][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_048.jpg)
+[2015.06.05-20.56.18:476][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_048 (AutoDXT)
+[2015.06.05-20.56.18:562][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_049.jpg)
+[2015.06.05-20.56.18:670][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_049 (AutoDXT)
+[2015.06.05-20.56.18:793][897]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Eddi/Desktop/Particles/MAL_Magic-Alpha_050.jpg)
+[2015.06.05-20.56.18:850][897]LogTexture:Display: Building textures: MAL_Magic-Alpha_050 (AutoDXT)
+[2015.06.05-20.56.22:956][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.05-20.56.23:222][117]LogSavePackage: Save=23.884773ms
+[2015.06.05-20.56.23:222][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0017315806E45636DECC326B4A72237C89B.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_001.uasset'
+[2015.06.05-20.56.23:281][117]LogSavePackage: Save=21.243822ms
+[2015.06.05-20.56.23:281][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0024C11B86643FBEC01E341E1950F85D5ED.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_002.uasset'
+[2015.06.05-20.56.23:327][117]LogSavePackage: Save=26.091049ms
+[2015.06.05-20.56.23:327][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_00321D908FA4839A89C48D5F1B02979483F.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_003.uasset'
+[2015.06.05-20.56.23:388][117]LogSavePackage: Save=41.793976ms
+[2015.06.05-20.56.23:388][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_004C514E6D64D7926C54745FF8ACEF82766.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_004.uasset'
+[2015.06.05-20.56.23:426][117]LogSavePackage: Save=18.038700ms
+[2015.06.05-20.56.23:426][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_005BDD0DE844A6EEC85BF8659AAA3F707AB.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_005.uasset'
+[2015.06.05-20.56.23:470][117]LogSavePackage: Save=23.881453ms
+[2015.06.05-20.56.23:470][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_00681B12CDE4389BE80B0BDBDACC46D3E1C.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_006.uasset'
+[2015.06.05-20.56.23:514][117]LogSavePackage: Save=25.708595ms
+[2015.06.05-20.56.23:514][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_007AF7C194944AC1C82470AE5899049DFB2.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_007.uasset'
+[2015.06.05-20.56.23:579][117]LogSavePackage: Save=33.966812ms
+[2015.06.05-20.56.23:579][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_008FE4222E0438A9041FC9D47B3CBACC3F8.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_008.uasset'
+[2015.06.05-20.56.23:624][117]LogSavePackage: Save=25.674183ms
+[2015.06.05-20.56.23:624][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0092A4A107B44BCA486C86136AAAD8666CF.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_009.uasset'
+[2015.06.05-20.56.23:663][117]LogSavePackage: Save=20.281500ms
+[2015.06.05-20.56.23:663][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_010EC8C02C54683BD7C14CF15B46E7911DB.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_010.uasset'
+[2015.06.05-20.56.23:711][117]LogSavePackage: Save=23.767653ms
+[2015.06.05-20.56.23:711][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_01145C1AC81401BBD1C032A1588243BC27C.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_011.uasset'
+[2015.06.05-20.56.23:754][117]LogSavePackage: Save=22.885323ms
+[2015.06.05-20.56.23:754][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_012BEDC58EF4ECF4A15E5727B9A5DAC14C1.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_012.uasset'
+[2015.06.05-20.56.23:797][117]LogSavePackage: Save=22.852421ms
+[2015.06.05-20.56.23:797][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0137FD73AF04525EE54419687A1CF540973.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_013.uasset'
+[2015.06.05-20.56.23:844][117]LogSavePackage: Save=24.426607ms
+[2015.06.05-20.56.23:844][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0149537F65141A0ECBD244257B462E8AEBF.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_014.uasset'
+[2015.06.05-20.56.23:894][117]LogSavePackage: Save=30.182425ms
+[2015.06.05-20.56.23:894][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0158912E7B94F03CC649401C7BAF1E71790.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_015.uasset'
+[2015.06.05-20.56.23:939][117]LogSavePackage: Save=24.151312ms
+[2015.06.05-20.56.23:939][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_016B16F74914713D5EA12649CA3DA336D52.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_016.uasset'
+[2015.06.05-20.56.23:985][117]LogSavePackage: Save=26.372078ms
+[2015.06.05-20.56.23:985][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_01730F0E5C34F468BACC58DC08954D2177E.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_017.uasset'
+[2015.06.05-20.56.24:038][117]LogSavePackage: Save=25.968796ms
+[2015.06.05-20.56.24:038][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_01871E26B774658EFB63FF9B081D91028D1.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_018.uasset'
+[2015.06.05-20.56.24:087][117]LogSavePackage: Save=29.427479ms
+[2015.06.05-20.56.24:087][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0197CEF18E74D92E9DD8E3BBB9C34A94067.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_019.uasset'
+[2015.06.05-20.56.24:143][117]LogSavePackage: Save=31.085884ms
+[2015.06.05-20.56.24:143][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0202DF567844BB0BB8260866B85C612CFE1.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_020.uasset'
+[2015.06.05-20.56.24:184][117]LogSavePackage: Save=20.367832ms
+[2015.06.05-20.56.24:184][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_021A119B2BC46FEA713D9B8789B2176961B.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_021.uasset'
+[2015.06.05-20.56.24:220][117]LogSavePackage: Save=18.018173ms
+[2015.06.05-20.56.24:220][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_022FD2CA8694A01DFF4CFB24FBA2E392149.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_022.uasset'
+[2015.06.05-20.56.24:262][117]LogSavePackage: Save=22.293682ms
+[2015.06.05-20.56.24:262][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0235E4F33974363EC8F0B85A6AAC33D4CDD.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_023.uasset'
+[2015.06.05-20.56.24:300][117]LogSavePackage: Save=18.314596ms
+[2015.06.05-20.56.24:300][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_02495F2E8B94053E6E83FD856BF30A78AC9.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_024.uasset'
+[2015.06.05-20.56.24:346][117]LogSavePackage: Save=24.774950ms
+[2015.06.05-20.56.24:346][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_025107927BE423116FC5E054A80ED434EF6.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_025.uasset'
+[2015.06.05-20.56.24:387][117]LogSavePackage: Save=22.382126ms
+[2015.06.05-20.56.24:387][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_026131AE7144776340DFF04879868C57B8E.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_026.uasset'
+[2015.06.05-20.56.24:436][117]LogSavePackage: Save=30.630381ms
+[2015.06.05-20.56.24:436][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_027931778014D65998AFDF725A1127129F7.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_027.uasset'
+[2015.06.05-20.56.24:486][117]LogSavePackage: Save=29.597727ms
+[2015.06.05-20.56.24:486][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0288164F2144B9D3392047E8B9217646FC8.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_028.uasset'
+[2015.06.05-20.56.24:531][117]LogSavePackage: Save=26.904856ms
+[2015.06.05-20.56.24:531][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_02986DFE6B745DA42A67BF095B42D428D39.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_029.uasset'
+[2015.06.05-20.56.24:580][117]LogSavePackage: Save=27.080538ms
+[2015.06.05-20.56.24:581][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_030CD80D62145AE5A197BAE3D9AF5845507.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_030.uasset'
+[2015.06.05-20.56.24:623][117]LogSavePackage: Save=23.065531ms
+[2015.06.05-20.56.24:623][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0317B3230974FB0CCB68948A790E68C0B02.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_031.uasset'
+[2015.06.05-20.56.24:668][117]LogSavePackage: Save=20.375378ms
+[2015.06.05-20.56.24:668][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_03248B3CD444F982864710B0D9DA6CA98C5.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_032.uasset'
+[2015.06.05-20.56.24:711][117]LogSavePackage: Save=24.081282ms
+[2015.06.05-20.56.24:711][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_033DDC0C50B42044138754D4D9F90F64D07.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_033.uasset'
+[2015.06.05-20.56.24:759][117]LogSavePackage: Save=29.856419ms
+[2015.06.05-20.56.24:759][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_03412641B4F40DFAC0C26F0D8B5CB20B9BE.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_034.uasset'
+[2015.06.05-20.56.24:803][117]LogSavePackage: Save=24.637302ms
+[2015.06.05-20.56.24:803][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_035666B420E431CE4F5CEF0EC908B00AB98.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_035.uasset'
+[2015.06.05-20.56.24:851][117]LogSavePackage: Save=30.058966ms
+[2015.06.05-20.56.24:851][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_036897ADEB4416454C3404D16BC85E97CA3.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_036.uasset'
+[2015.06.05-20.56.24:900][117]LogSavePackage: Save=26.865313ms
+[2015.06.05-20.56.24:900][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_037167B6DA344064880C1F255BEBD07E813.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_037.uasset'
+[2015.06.05-20.56.24:957][117]LogSavePackage: Save=38.159309ms
+[2015.06.05-20.56.24:957][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_038EE5F76264883FB17536733A81ECDD545.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_038.uasset'
+[2015.06.05-20.56.25:001][117]LogSavePackage: Save=24.099997ms
+[2015.06.05-20.56.25:001][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0392F1D17F14C1ABADCDA11EE8D7EBEBD7C.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_039.uasset'
+[2015.06.05-20.56.25:046][117]LogSavePackage: Save=26.097689ms
+[2015.06.05-20.56.25:046][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0404CADC0ED4E1457954182C08C12CB140F.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_040.uasset'
+[2015.06.05-20.56.25:093][117]LogSavePackage: Save=24.425400ms
+[2015.06.05-20.56.25:093][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_041C8456EB9441393B4031FF98BD4EA3717.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_041.uasset'
+[2015.06.05-20.56.25:141][117]LogSavePackage: Save=28.379431ms
+[2015.06.05-20.56.25:141][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_042D783B1134CD0D0E1808B5189597D3057.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_042.uasset'
+[2015.06.05-20.56.25:194][117]LogSavePackage: Save=31.810946ms
+[2015.06.05-20.56.25:194][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_04383A95EEF458505F7E5855F9B35EDA0AC.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_043.uasset'
+[2015.06.05-20.56.25:233][117]LogSavePackage: Save=21.018637ms
+[2015.06.05-20.56.25:233][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0440D8C3F16430264150883CCA1149780B1.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_044.uasset'
+[2015.06.05-20.56.25:269][117]LogSavePackage: Save=18.337236ms
+[2015.06.05-20.56.25:269][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_0459080517841F9349757D652A1C97DD6BA.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_045.uasset'
+[2015.06.05-20.56.25:317][117]LogSavePackage: Save=25.829639ms
+[2015.06.05-20.56.25:317][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_046C175F3EA411D94D324433CBD19D9E161.tmp' to '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Content/PsyodronixSprites/MAL_Magic-Alpha_046.uasset'
+[2015.06.05-20.56.25:366][117]LogSavePackage: Save=26.800413ms
+[2015.06.05-20.56.25:366][117]LogSavePackage: Moving '../../../../../../Users/Eddi/Documents/Unreal Projects/ArenaMastersOnline 4.8/Saved/MAL_Magic-Alpha_04753B0380744AC7CB38755F6849
