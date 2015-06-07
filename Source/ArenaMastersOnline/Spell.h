@@ -119,8 +119,6 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Stats)
 		bool bIsOnCooldown;
 	UPROPERTY(BlueprintReadWrite, Category = Stats)
-		float CastTimeElapsed;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
 		float CastTime;
 	UPROPERTY(BlueprintReadWrite, Category = Stats)
 		int32 ResourceCost;
@@ -141,14 +139,11 @@ public:
 		TSubclassOf<class AActor> SpellEffect;
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = Stats)
-		void HitScanTest(FHitResult HitResult);
+		bool CastSpell(FHitResult HitResult, AActor* Target);
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = Stats)
 		void MouseOverTest();
-	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = Stats)
+	UFUNCTION(BlueprintCallable, Category = Stats)
 		bool ReduceCD(float DeltaTime);
 	UFUNCTION(BlueprintCallable, Category = Stats)
 		void InitStats();
-
-	UFUNCTION(BlueprintCallable, Category = Stats)
-		bool CastSpell(FHitResult HitResult);
 };

@@ -26,6 +26,12 @@ void ASpellbook::Tick( float DeltaTime )
 	for (auto cooldownIterator = cooldowns.CreateConstIterator(); cooldownIterator; ++cooldownIterator)
 	{
 		ASpell* tempSpellID = cooldownIterator.Value();
+
+		tempSpellID->ReduceCD(DeltaTime);
 	}
 }
 
+void ASpellbook::CastSpell(int32 SpellIndex)
+{
+	currentSpell = SpellIndex;
+}

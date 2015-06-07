@@ -23,9 +23,16 @@ public:
 	virtual void Tick( float DeltaSeconds ) override;
 
 	TMap<int32, ASpell*> cooldowns;
+	TMap<EMagicSchool::MagicSchool, bool> lockouts;
 
 	UPROPERTY(BlueprintReadOnly, Category = Spells)
-		TArray<int32> spells;
+		TArray<ASpell*> spells;
+	UFUNCTION(BlueprintCallable, Category = Stats)
+		void CastSpell(int32 SpellIndex);
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		float CastTimeElapsed;
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		bool bIsCasting;
 
 private:
 	int32 currentSpell;
