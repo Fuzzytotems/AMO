@@ -60,6 +60,7 @@ namespace EMagicSchool
 		MS_Fire				UMETA(DisplayName = "Fire"),
 		MS_Cold				UMETA(DisplayName = "Cold"),
 		MS_Nature			UMETA(DisplayName = "Nature"),
+		MS_Universal		UMETA(DisplayName = "Universal"),
 
 		MS_MAX				UMETA(Hidden),
 	};
@@ -78,9 +79,7 @@ public:
 	virtual void BeginPlay() override;
 	
 	// Called every frame
-	virtual void Tick( float DeltaSeconds ) override;
-
-	void ReduceCD(float DeltaTime);
+	virtual void Tick(float DeltaSeconds) override;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Stats)
 		float BaseCastTime;
@@ -102,6 +101,12 @@ public:
 		float BaseMaxDamage;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Stats)
 		int32 BaseResourceCost;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Stats)
+		int32 BaseMaxCharges;
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		int32 MaxCharges;
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		int32 CurrentCharges;
 
 	UPROPERTY(BlueprintReadWrite, Category = Stats)
 		float MinDamage;
@@ -131,16 +136,16 @@ public:
 		bool bCastWhileMoving;
 	// This is the duration the projectile lasts
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
-		float SpellDuration;
+		float SpellLifetime;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
-		TSubclassOf<class AActor> Projectile;
-	UPROPERTY(Replicated, BlueprintReadWrite, Category = Stats)
-		bool bIsActive;
+		TSubclassOf<class AActor> SpellEffect;
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = Stats)
 		void HitScanTest(FHitResult HitResult);
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = Stats)
 		void MouseOverTest();
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = Stats)
+		bool ReduceCD(float DeltaTime);
 	UFUNCTION(BlueprintCallable, Category = Stats)
 		void InitStats();
 

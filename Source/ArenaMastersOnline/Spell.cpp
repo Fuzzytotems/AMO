@@ -10,16 +10,24 @@ ASpell::ASpell()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
-	currentCD = 0;
+	BaseCooldown = 0;
+	Cooldown = 0;
+	CooldownElapsed = 0;
 
-	bIsOffCD = true;
+	bIsOnCooldown = false;
+
+	InitStats();
+}
+
+void ASpell::InitStats()
+{
+
 }
 
 // Called when the game starts or when spawned
 void ASpell::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -29,9 +37,23 @@ void ASpell::Tick( float DeltaTime )
 
 }
 
-void ASpell::ReduceCD(float DeltaTime)
+bool ASpell::ReduceCD(float DeltaTime)
 {
-	currentCD -= DeltaTime;
+	CooldownElapsed -= DeltaTime;
 
-	FMath::Clamp(currentCD, 0.f, cooldown);
+	FMath::Clamp(CooldownElapsed, 0.f, Cooldown);
+
+	if (CooldownElapsed == 0.f)
+	{
+		bIsOnCooldown = false;
+
+		if (CurrentCharges < MaxCharges)
+		{
+			CurrentCharges++;
+		}
+
+		return true;
+	}
+
+	return false;
 }

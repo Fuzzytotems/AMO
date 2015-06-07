@@ -20,7 +20,7 @@ public:
 	virtual void BeginPlay() override;
 	
 	// Called every frame
-	virtual void Tick( float DeltaSeconds ) OVERRIDE;
+	virtual void Tick( float DeltaSeconds ) override;
 
 	TMap<int32, ASpell*> cooldowns;
 

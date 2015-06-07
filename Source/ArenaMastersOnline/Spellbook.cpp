@@ -23,9 +23,9 @@ void ASpellbook::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 	
-	for (auto cooldownIterator = cooldowns.CreateConstIterator(); cooldownIterator; cooldownIterator++)
+	for (auto cooldownIterator = cooldowns.CreateConstIterator(); cooldownIterator; ++cooldownIterator)
 	{
-		ASpell* tempSpellID = Cast<ASpell*>(cooldownIterator.Value);
+		ASpell* tempSpellID = cooldownIterator.Value();
 	}
 }
 
