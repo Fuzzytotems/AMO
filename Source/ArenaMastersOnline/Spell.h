@@ -103,10 +103,10 @@ public:
 		int32 BaseResourceCost;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Stats)
 		int32 BaseMaxCharges;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
-		int32 MaxCharges;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
-		int32 CurrentCharges;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Stats)
+		int32 BaseSpellLifetime;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Stats)
+		TArray<TEnumAsByte<EMagicSchool::MagicSchool>> BaseMagicSchools;
 
 	UPROPERTY(BlueprintReadWrite, Category = Stats)
 		float MinDamage;
@@ -132,6 +132,12 @@ public:
 		bool bIsBouncy;
 	UPROPERTY(BlueprintReadWrite, Category = Stats)
 		bool bCastWhileMoving;
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		TArray<TEnumAsByte<EMagicSchool::MagicSchool>> MagicSchools;
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		int32 MaxCharges;
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		int32 CurrentCharges;
 	// This is the duration the projectile lasts
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stats)
 		float SpellLifetime;

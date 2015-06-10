@@ -10,18 +10,27 @@ ASpell::ASpell()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
-	BaseCooldown = 0;
-	Cooldown = 0;
-	CooldownElapsed = 0;
-
-	bIsOnCooldown = false;
-
 	InitStats();
 }
 
 void ASpell::InitStats()
 {
-
+	MinDamage = BaseMinDamage;
+	MaxDamage = BaseMaxDamage;
+	CooldownElapsed = 0.f;
+	Cooldown = BaseCooldown;
+	bIsOnCooldown = false;
+	CastTime = BaseCastTime;
+	ResourceCost = BaseResourceCost;
+	AimType = BaseAimType;
+	CastingType = BaseCastingType;
+	DisableType = BaseDisableType;
+	bIsBouncy = bBaseIsBouncy;
+	bCastWhileMoving = bBaseCastWhileMoving;
+	MagicSchools = BaseMagicSchools;
+	MaxCharges = BaseMaxCharges;
+	CurrentCharges = MaxCharges;
+	SpellLifetime = BaseSpellLifetime;
 }
 
 // Called when the game starts or when spawned

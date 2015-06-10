@@ -64,6 +64,7 @@ void AArenaMastersOnlineCharacter::SetupPlayerInputComponent(class UInputCompone
 	InputComponent->BindAxis("TurnRate", this, &AArenaMastersOnlineCharacter::TurnAtRate);
 	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	InputComponent->BindAxis("LookUpRate", this, &AArenaMastersOnlineCharacter::LookUpAtRate);
+	InputComponent->BindAxis("CastSpell", this, &AArenaMastersOnlineCharacter::CastSpell);
 
 	// handle touch devices
 	InputComponent->BindTouch(IE_Pressed, this, &AArenaMastersOnlineCharacter::TouchStarted);
@@ -116,7 +117,7 @@ void AArenaMastersOnlineCharacter::MoveForward(float Value)
 
 void AArenaMastersOnlineCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
+  	if ( (Controller != NULL) && (Value != 0.0f) )
 	{
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -149,6 +150,59 @@ void AArenaMastersOnlineCharacter::Tick(float DeltaSeconds)
 void AArenaMastersOnlineCharacter::TickRegen(float DeltaSeconds)
 {
 
+}
+
+void AArenaMastersOnlineCharacter::CastSpell(float Value)
+{
+	FHitResult MouseTrace;
+	FCollisionQueryParams TraceParams;
+	FVector WorldPosition;
+	FVector WorldDirection;
+	APlayerController* MyController = Cast<APlayerController>(this->Controller);
+	FColor LineColor;
+
+	TraceParams.bTraceComplex = true;
+	TraceParams.bTraceAsyncScene = true;
+	TraceParams.bReturnPhysicalMaterial = true;
+
+	TraceParams.AddIgnoredActor(this);
+
+	FHitResult* SentHitResult;
+
+	MyController->DeprojectMousePositionToWorld(WorldPosition, WorldDirection);
+	//GetWorld()->LineTraceSingle(MouseTrace, WorldPosition, WorldPosition + (WorldDirection * 50000), ECC_Visibility, TraceParams);
+	GetWorld()->LineTraceSingleByChannel(MouseTrace, WorldPosition, WorldPosition + (WorldDirection * 50000), ECC_Visibility, TraceParams);
+
+	if (MouseTrace.ImpactPoint != FVector(0, 0, 0))
+	{
+		GetWorld()->LineTraceSingleByChannel(MouseTrace, this->GetActorLocation(), MouseTrace.ImpactPoint, ECC_Visibility, TraceParams);
+	}
+	else
+	{
+		GetWorld()->LineTraceSingleByChannel(MouseTrace, this->GetActorLocation(), MouseTrace.TraceEnd, ECC_Visibility, TraceParams);
+	}
+
+	FVector TraceEnd = WorldPosition + (WorldDirection * 20000);
+
+	SentHitResult = &MouseTrace;
+
+	if (MouseTrace.ImpactPoint == FVector(0, 0, 0))
+	{
+		MouseTrace.ImpactPoint = MouseTrace.TraceEnd;
+	}
+
+	//DrawDebugLine(this->GetWorld(), SentHitResult->TraceStart, SentHitResult->ImpactPoint, LineColor, true, 10.f);
+
+	//if (Role == ROLE_Authority)
+	//{
+	//	ClientCastSpell(SpellIndex, *SentHitResult);
+	//}
+	//else
+	//{
+	//	ServerCastSpell(SpellIndex, *SentHitResult);
+	//}
+
+	spellbook->CastSpell(Value, Target, MouseTrace);
 }
 
 //void AArenaMastersOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeProps) const

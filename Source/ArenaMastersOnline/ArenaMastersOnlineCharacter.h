@@ -107,12 +107,17 @@ public:
 		bool bIsImmortal;
 	UPROPERTY(BlueprintReadWrite, Category = Stats)
 		bool bIsDead;
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		bool bIsTargetable;
+
+	UPROPERTY(BlueprintReadWrite, Category = Stats)
+		AActor* Target;
 
 	UPROPERTY(BlueprintReadWrite, Category = Stats)
 		ASpellbook* spellbook;
 
-	//UFUNCTION(Exec)
-	//	void AttemptCastSpell(int32 SpellIndex);
+	UFUNCTION(Exec, BlueprintCallable, Category = Stats)
+		void CastSpell(float Value);
 	UFUNCTION(BlueprintCallable, Category = Stats)
 		bool IsDead();
 

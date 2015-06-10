@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{A961A459-6CE7-4BA4-A984-60342AA3B97D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{2B782351-5E4E-4EA6-87AB-DC6ED0EAE605}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{3CF79671-2E1B-40C2-B7C5-71D4919C9A9B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{C8C4E2C1-AB1A-44A0-AFD0-197888D861E8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArenaMastersOnline", "Intermediate\ProjectFiles\ArenaMastersOnline.vcxproj", "{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7}"
 EndProject
@@ -33,7 +33,6 @@ Global
 		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7}.DebugGame|Win64.ActiveCfg = DebugGame_Game|x64
 		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7}.DebugGame|Win64.Build.0 = DebugGame_Game|x64
 		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7}.Development Editor|Win32.ActiveCfg = Development_Game|x64
-		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7}.Development Editor|Win32.Build.0 = Development_Game|x64
 		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7}.Development Editor|Win64.ActiveCfg = Development_Editor|x64
 		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7}.Development Editor|Win64.Build.0 = Development_Editor|x64
 		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7}.Development|Win32.ActiveCfg = Development_Game|Win32
@@ -64,7 +63,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7} = {3CF79671-2E1B-40C2-B7C5-71D4919C9A9B}
-		{5224A170-BEC8-4B39-8803-EE224C7D98C3} = {A961A459-6CE7-4BA4-A984-60342AA3B97D}
+		{DB9EE6DC-06CB-4441-9E3E-ABFC2968BEA7} = {C8C4E2C1-AB1A-44A0-AFD0-197888D861E8}
+		{5224A170-BEC8-4B39-8803-EE224C7D98C3} = {2B782351-5E4E-4EA6-87AB-DC6ED0EAE605}
 	EndGlobalSection
 EndGlobal
