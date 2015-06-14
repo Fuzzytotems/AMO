@@ -2,6 +2,7 @@
 #pragma once
 
 #include "Spellbook.h"
+#include "UnrealNetwork.h"
 #include "GameFramework/Character.h"
 #include "ArenaMastersOnlineCharacter.generated.h"
 
@@ -83,34 +84,43 @@ public:
 	// Health and Resource variables
 	virtual void Tick(float DeltaSeconds) override;
 
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float speedFactor;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float baseMaxHealth;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float maxHealth;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float currentHealth;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
+		float baseHealthRegen;
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
+		float currentHealthRegen;
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float excessHealth;
 
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float baseMaxResource;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float maxResource;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float currentResource;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
+		float baseResourceRegen;
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
+		float currentResourceRegen;
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		float excessResource;
 
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		bool bIsImmortal;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		bool bIsDead;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		bool bIsTargetable;
 
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
+	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		AActor* Target;
 
 	UPROPERTY(BlueprintReadWrite, Category = Stats)
@@ -122,8 +132,6 @@ public:
 		bool IsDead();
 
 	void InitStats();
-	
-	void TickRegen(float DeltaSeconds);
 };
 
 inline bool AArenaMastersOnlineCharacter::IsDead()

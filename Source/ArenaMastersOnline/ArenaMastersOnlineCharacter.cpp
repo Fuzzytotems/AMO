@@ -147,11 +147,6 @@ void AArenaMastersOnlineCharacter::Tick(float DeltaSeconds)
 	
 }
 
-void AArenaMastersOnlineCharacter::TickRegen(float DeltaSeconds)
-{
-
-}
-
 void AArenaMastersOnlineCharacter::CastSpell(float Value)
 {
 	FHitResult MouseTrace;
@@ -205,7 +200,25 @@ void AArenaMastersOnlineCharacter::CastSpell(float Value)
 	spellbook->CastSpell(Value, Target, MouseTrace);
 }
 
-//void AArenaMastersOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeProps) const
-//{
-//	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-//}
+void AArenaMastersOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, speedFactor);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, baseMaxHealth);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, maxHealth);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, currentHealth);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, baseHealthRegen);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, currentHealthRegen);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, excessHealth);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, baseMaxResource);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, maxResource);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, currentResource);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, baseResourceRegen);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, currentResourceRegen);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, excessResource);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, bIsImmortal);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, bIsDead);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, bIsTargetable);
+	DOREPLIFETIME(AArenaMastersOnlineCharacter, Target);
+}
