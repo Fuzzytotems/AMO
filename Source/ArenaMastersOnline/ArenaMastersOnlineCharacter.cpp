@@ -197,7 +197,7 @@ void AArenaMastersOnlineCharacter::CastSpell(float Value)
 	//	ServerCastSpell(SpellIndex, *SentHitResult);
 	//}
 
-	spellbook->CastSpell(Value, Target, MouseTrace);
+	//spellbook->CastSpell(Value, Target, MouseTrace);
 }
 
 void AArenaMastersOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeProps) const

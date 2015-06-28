@@ -10,14 +10,11 @@ namespace EAimingType
 {
 	enum AimingType
 	{
+		AT_FrameTarget		UMETA(DisplayName = "Frame Targeted"),
 		AT_SkillShot		UMETA(DisplayName = "Skill Shot"),
-		AT_MouseOver		UMETA(DisplayName = "Mouse Over"),
-		AT_HitScan			UMETA(DisplayName = "Hit Scan"),
 		AT_AutoTarget		UMETA(DisplayName = "Auto Target"),
 		AT_Toggled			UMETA(DisplayName = "Toggled"),
 		AT_GroundTargeted	UMETA(DisplayName = "Ground Targeted"),
-		AT_Passive			UMETA(DisplayName = "Passive"),
-		AT_SmartTarget		UMETA(DisplayName = "Frame Targeted"),
 
 		AT_MAX				UMETA(Hidden),
 	};

@@ -123,8 +123,8 @@ public:
 	UPROPERTY(BlueprintReadWrite, Replicated, Category = Stats)
 		AActor* Target;
 
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
-		ASpellbook* spellbook;
+	//UPROPERTY(BlueprintReadWrite, Category = Stats)
+	//	ASpellbook* spellbook;
 
 	UFUNCTION(Exec, BlueprintCallable, Category = Stats)
 		void CastSpell(float Value);
