@@ -1,3 +1,4 @@
+
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
@@ -7,7 +8,8 @@ public class ArenaMastersOnlineTarget : TargetRules
 {
 	public ArenaMastersOnlineTarget(TargetInfo Target)
 	{
-		Type = TargetType.Game;
+        Type = TargetType.Game;
+        bUsesSteam = true;
 	}
 
 	//

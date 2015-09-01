@@ -126,10 +126,15 @@ public:
 	//UPROPERTY(BlueprintReadWrite, Category = Stats)
 	//	ASpellbook* spellbook;
 
-	UFUNCTION(Exec, BlueprintCallable, Category = Stats)
-		void CastSpell(float Value);
 	UFUNCTION(BlueprintCallable, Category = Stats)
 		bool IsDead();
+
+	UFUNCTION(BlueprintCallable, Category = Stats)
+		void SetPlayerTarget(AActor* newTarget);
+	UFUNCTION(reliable, server, WithValidation)
+		void ServerSetPlayerTarget(AActor* newTarget);
+	virtual bool ServerSetPlayerTarget_Validate(AActor* newTarget);
+	virtual void ServerSetPlayerTarget_Implementation(AActor* newTarget);
 
 	void InitStats();
 };

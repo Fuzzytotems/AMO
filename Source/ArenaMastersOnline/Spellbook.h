@@ -22,23 +22,6 @@ public:
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 
-	TMap<int32, ASpell*> cooldowns;
+	TMap<BYTE, ASpell*> cooldowns;
 	TMap<EMagicSchool::MagicSchool, bool> lockouts;
-
-	UPROPERTY(BlueprintReadOnly, Category = Spells)
-		TArray<ASpell*> spells;
-	UFUNCTION(BlueprintCallable, Category = Stats)
-		void CastSpell(int32 SpellIndex, AActor* newTarget, FHitResult newMouseHitResult);
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
-		float CastTimeElapsed;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
-		bool bIsCasting;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
-		AActor* Target;
-	UPROPERTY(BlueprintReadWrite, Category = Stats)
-		FHitResult MouseHitResult;
-
-private:
-	int32 currentSpell;
-	int32 previousSpell;
 };
