@@ -214,3 +214,39 @@ float AArenaPlayerState::UnreliableCheckForCDValue(FName spellName)
 
 	return result;
 }
+
+void AArenaPlayerState::ExposedRenamePlayer(FString NewName)
+{
+	if (Role == ROLE_Authority)
+	{
+		ServerExposedRenamePlayer(NewName);
+		ClientExposedRenamePlayer(NewName);
+	}
+}
+
+void AArenaPlayerState::ServerExposedRenamePlayer_Implementation(const FString& NewName)
+{
+	SetPlayerName(NewName);
+}
+
+bool AArenaPlayerState::ServerExposedRenamePlayer_Validate(const FString& NewName)
+{
+	return true;
+}
+
+void AArenaPlayerState::ClientExposedRenamePlayer_Implementation(const FString& NewName)
+{
+	SetPlayerName(NewName);
+}
+
+bool AArenaPlayerState::ClientExposedRenamePlayer_Validate(const FString& NewName)
+{
+	return true;
+}
+
+FString AArenaPlayerState::GetControllerNetworkID()
+{
+	SteamID = UniqueId->ToString();
+
+	return SteamID;
+}

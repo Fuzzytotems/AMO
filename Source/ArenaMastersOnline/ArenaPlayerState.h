@@ -52,15 +52,32 @@ public:
 		int32 CooldownCounter();
 	void SortSpecificCooldown(FName spellName);
 
-	// External effects management
+	UFUNCTION(BlueprintCallable, Category = General)
+		void ExposedRenamePlayer(FString NewName);
+	UFUNCTION(reliable, server, WithValidation)
+		void ServerExposedRenamePlayer(const FString& NewName);
+	UFUNCTION(reliable, Client, WithValidation)
+		void ClientExposedRenamePlayer(const FString& NewName);
+	virtual void ServerExposedRenamePlayer_Implementation(const FString& NewName);
+	virtual bool ServerExposedRenamePlayer_Validate(const FString& NewName);
+	virtual void ClientExposedRenamePlayer_Implementation(const FString& NewName);
+	virtual bool ClientExposedRenamePlayer_Validate(const FString& NewName);
+
+	UFUNCTION(BlueprintCallable, Category = Online)
+		FString GetControllerNetworkID();
+
+	//UFUNCTIONxternal effects management
 	//UFUNCTION(BlueprintCallable, Category = EffectManagement)
 	//	float CheckForCooldown(FName spellName);
-	//UFUNCTION(reliable, server, WithValidation)
-	//	void ServerCheckForCooldown(FName spellName);
+	//UFUNCTION(reliable, server, WiFStringValidation)
+	//	void ServeServerExposedRenamePlayerenamePlayeFStringmePlayerenamePlayerooldown(FName spellName);
 	//virtual bool ServerCheckForCooldown_Validate(FName spellName);
 	//virtual void ServerCheckForCooldown_Implementation(FName spellName);
 
 	virtual void Tick(float DeltaSeconds) override;
+
+	UPROPERTY(BlueprintReadOnly)
+		FString SteamID;
 
 private:
 	TMultiMap<FName, float> cooldowns;
