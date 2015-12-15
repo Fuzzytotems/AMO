@@ -66,13 +66,30 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Online)
 		FString GetControllerNetworkID();
 
-	//UFUNCTIONxternal effects management
-	//UFUNCTION(BlueprintCallable, Category = EffectManagement)
-	//	float CheckForCooldown(FName spellName);
-	//UFUNCTION(reliable, server, WiFStringValidation)
-	//	void ServeServerExposedRenamePlayerenamePlayeFStringmePlayerenamePlayerooldown(FName spellName);
-	//virtual bool ServerCheckForCooldown_Validate(FName spellName);
-	//virtual void ServerCheckForCooldown_Implementation(FName spellName);
+	UFUNCTION(BlueprintImplementableEvent, Category = Spells)
+		bool ValidateSkillLearning(FName newName);
+
+	UFUNCTION(BlueprintCallable, Category = Spells)
+		void LearnNewSpell(FName newName, AActor* newSpell);
+	//UFUNCTION(reliable, server, WithValidation)
+	//	void ServerLearnNewSpell(FName newName, AActor* newSpell);
+	//UFUNCTION(reliable, Client, WithValidation)
+	//	void ClientLearnNewSpell(FName newName, AActor* newSpell);
+	//virtual void ServerLearnNewSpell_Implementation(FName newName, AActor* newSpell);
+	//virtual bool ServerLearnNewSpell_Validate(FName newName, AActor* newSpell);
+	//virtual void ClientLearnNewSpell_Implementation(FName newName, AActor* newSpell);
+	//virtual bool ClientLearnNewSpell_Validate(FName newName, AActor* newSpell);
+
+	UFUNCTION(BlueprintCallable, Category = Spells)
+		void KnowsSpell(FName newName, AActor*& newSpell);
+	//UFUNCTION(reliable, server, WithValidation)
+	//	void ServerKnowsSpell(FName newName, const AActor*& newSpell);
+	//UFUNCTION(reliable, Client, WithValidation)
+	//	void ClientKnowsSpell(FName newName, const AActor*& newSpell);
+	//virtual void ServerKnowsSpell_Implementation(FName newName, AActor*& newSpell);
+	//virtual bool ServerKnowsSpell_Validate(FName newName, AActor*& newSpell);
+	//virtual void ClientKnowsSpell_Implementation(FName newName, AActor*& newSpell);
+	//virtual bool ClientKnowsSpell_Validate(FName newName, AActor*& newSpell);
 
 	virtual void Tick(float DeltaSeconds) override;
 
@@ -82,4 +99,5 @@ public:
 private:
 	TMultiMap<FName, float> cooldowns;
 	TMultiMap<FString, int32> activeEffects;
+	TMap<FName, AActor*> knownSpells;
 };

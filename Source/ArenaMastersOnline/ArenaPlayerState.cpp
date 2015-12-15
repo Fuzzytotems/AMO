@@ -250,3 +250,59 @@ FString AArenaPlayerState::GetControllerNetworkID()
 
 	return SteamID;
 }
+
+void AArenaPlayerState::LearnNewSpell(FName newName, AActor* newSpell)
+{
+	if (!knownSpells.Find(newName))
+	{
+		if (ValidateSkillLearning(newName))
+		{
+			knownSpells.Add(newName, newSpell);
+
+		}
+	}
+}
+
+//void AArenaPlayerState::ServerLearnNewSpell_Implementation(FName newName, AActor* newSpell)
+//{
+//
+//}
+//
+//bool AArenaPlayerState::ServerLearnNewSpell_Validate(FName newName, AActor* newSpell)
+//{
+//	return true;
+//}
+//
+//void AArenaPlayerState::ClientLearnNewSpell_Implementation(FName newName, AActor* newSpell)
+//{
+//
+//}
+//
+//bool AArenaPlayerState::ClientLearnNewSpell_Validate(FName newName, AActor* newSpell)
+//{
+//	return true;
+//}
+
+void AArenaPlayerState::KnowsSpell(FName newName, AActor*& newSpell)
+{
+}
+
+//void AArenaPlayerState::ServerKnowsSpell_Implementation(FName newName, const AActor*& newSpell)
+//{
+//
+//}
+//
+//bool AArenaPlayerState::ServerKnowsSpell_Validate(FName newName, AActor*& newSpell)
+//{
+//	return true;
+//}
+//
+//void AArenaPlayerState::ClientKnowsSpell_Implementation(FName newName, AActor*& newSpell)
+//{
+//
+//}
+//
+//bool AArenaPlayerState::ClientKnowsSpell_Validate(FName newName, AActor*& newSpell)
+//{
+//	return true;
+//}
