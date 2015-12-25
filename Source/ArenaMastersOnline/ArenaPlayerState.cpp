@@ -147,6 +147,12 @@ void AArenaPlayerState::Tick(float DeltaSeconds)
 
 			it.Value() -= DeltaSeconds;
 
+			while (cdModifiers.Contains(it.Key()))
+			{
+				it.Value() -= *cdModifiers.Find(it.Key());
+				cdModifiers.Remove(it.Key());
+			}
+
 			if (it.Value() <= 0.f)
 			{
 				it.RemoveCurrent();
@@ -160,6 +166,8 @@ void AArenaPlayerState::Tick(float DeltaSeconds)
 			cooldowns.Shrink();
 		}
 	}
+
+	cdModifiers.Empty();
 
 	Super::Tick(DeltaSeconds);
 }
@@ -240,6 +248,26 @@ void AArenaPlayerState::ClientExposedRenamePlayer_Implementation(const FString& 
 }
 
 bool AArenaPlayerState::ClientExposedRenamePlayer_Validate(const FString& NewName)
+{
+	return true;
+}
+
+bool AArenaPlayerState::ModifySpecificCD(FName spellName, float duration)
+{
+	if (Role == ROLE_Authority)
+	{
+		MulticastModifySpecificCD(spellName, duration);
+	}
+
+	return true;
+}
+
+void AArenaPlayerState::MulticastModifySpecificCD_Implementation(FName spellName, float duration)
+{
+	cdModifiers.Add(spellName, duration);
+}
+
+bool AArenaPlayerState::MulticastModifySpecificCD_Validate(FName spellName, float duration)
 {
 	return true;
 }

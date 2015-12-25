@@ -44,6 +44,13 @@ public:
 	virtual void ServerCheckForCooldownValue_Implementation(FName spellName);
 
 	UFUNCTION(BlueprintCallable, Category = Cooldowns)
+		bool ModifySpecificCD(FName spellName, float duration);
+	UFUNCTION(reliable, NetMulticast, WithValidation)
+		void MulticastModifySpecificCD(FName spellName, float duration);
+	virtual bool MulticastModifySpecificCD_Validate(FName spellName, float duration);
+	virtual void MulticastModifySpecificCD_Implementation(FName spellName, float duration);
+
+	UFUNCTION(BlueprintCallable, Category = Cooldowns)
 		int32 UnreliableCheckForCD(FName spellName);
 	UFUNCTION(BlueprintCallable, Category = Cooldowns)
 		float UnreliableCheckForCDValue(FName spellName);
@@ -100,4 +107,5 @@ private:
 	TMultiMap<FName, float> cooldowns;
 	TMultiMap<FString, int32> activeEffects;
 	TMap<FName, AActor*> knownSpells;
+	TMultiMap<FName, float> cdModifiers;
 };
