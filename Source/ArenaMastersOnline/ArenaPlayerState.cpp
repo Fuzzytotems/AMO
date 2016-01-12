@@ -145,8 +145,13 @@ void AArenaPlayerState::Tick(float DeltaSeconds)
 				currentKey = it.Key();
 			}
 
-			it.Value() -= DeltaSeconds;
+			it.Value() -= (DeltaSeconds * cdDilation);
 
+			if (cdModifiers.Contains("ALL"))
+			{
+				it.Value() -= *cdModifiers.Find(it.Key());
+			}
+			
 			while (cdModifiers.Contains(it.Key()))
 			{
 				it.Value() -= *cdModifiers.Find(it.Key());
@@ -334,3 +339,11 @@ void AArenaPlayerState::KnowsSpell(FName newName, AActor*& newSpell)
 //{
 //	return true;
 //}
+
+void AArenaPlayerState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	// Replicate to everyone
+	DOREPLIFETIME(AArenaPlayerState, cdDilation);
+}

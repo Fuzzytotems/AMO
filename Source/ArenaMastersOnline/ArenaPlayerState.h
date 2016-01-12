@@ -103,6 +103,9 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 		FString SteamID;
 
+	UPROPERTY(BlueprintReadWrite, Replicated)
+		float cdDilation = 1.f;
+
 private:
 	TMultiMap<FName, float> cooldowns;
 	TMultiMap<FString, int32> activeEffects;
